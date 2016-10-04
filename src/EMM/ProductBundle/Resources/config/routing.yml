@@ -1,0 +1,28 @@
+emm_product_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: EMMProductBundle:Default:index }
+emm_product_index:
+    path:     /products/index
+    defaults: { _controller: EMMProductBundle:Product:index}
+
+emm_product_add:
+    path:     /products/add
+    defaults: { _controller: EMMProductBundle:Product:add}
+    
+emm_product_create:
+    path:     /products/create
+    defaults: { _controller: EMMProductBundle:Product:create}
+    methods: POST
+
+emm_product_edit:
+     path:     /products/edit/{id}
+     defaults: { _controller: EMMProductBundle:Product:edit}
+     
+     
+emm_product_update:
+     path:     /products/update/{id}
+     defaults: { _controller: EMMProductBundle:Product:update}
+     
+emm_product_delete:
+     path:     /products/delete/{id}
+     defaults: { _controller: EMMProductBundle:Product:delete}

@@ -1,0 +1,4 @@
+emm_product:
+    resource: "@EMMProductBundle/Resources/config/routing.yml"
+    prefix:   /
+
